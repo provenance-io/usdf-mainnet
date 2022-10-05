@@ -1,25 +1,20 @@
-# Provenance Network Mainnets
-Mainnet configurations for public [Provenance.io](https://provenance.io) network
+# USDF private network
+Mainnet configurations for usdf private zone.  
 
+ validate genesis file by 
+```bash
+provenanced  validate-genesis <PATH_TO_GENESIS_FILE>/genesis.json
+```
 ## Active Networks
 
-| Name          | Genesis Version | wasmd Version  | Genesis Finalized    | Network Start        |
-|---------------|-----------------|----------------|----------------------|----------------------|
-| pio-mainnet-1 | 1.0.1           | v0.16.0        | 19-04-2021 16:00:00Z | 20-04-2021 16:20:00Z |
+| Name          | Genesis Version | wasmd Version | Genesis Finalized | Network Start |
+|---------------|-----------------|---------------|-------------------|---------------|
+| pio-usdf-mainnet-1 | 1.0.0           | v0.28.0       | TBD               | TBD           |
 
 
-### `pio-mainnet-1` Upgrades
+### `pio-usdf-mainnet-1` Upgrades
 
-The full upgrades list can be found at https://explorer.provenance.io/network/upgrades
-
-| Upgrage Name  | Software Version | Wasm Version  | Block Height         |
-|---------------|------------------|---------------|----------------------|
-| Genesis       | v1.0.1           | v0.16.0       | 0                    |
-| bluetiful     | v1.3.1           | v0.16.0       | 352000               |
-| citrine       | v1.4.1           | v0.16.0       | 940500               |
-| desert        | v1.5.0           | v0.17.0       | 1442070              |
-| usdf.c-hotfix | v1.6.0           | v0.17.0       | 2000000              |
-| feldgrau      | v1.7.5           | v0.19.0 (pio) | 2641250              |
+The full upgrades list can be found at <link>
 
 
 
