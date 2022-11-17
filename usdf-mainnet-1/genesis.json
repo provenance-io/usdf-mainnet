@@ -339,7 +339,8 @@
           "denom": "vspn",
           "amount": "0"
         },
-        "nhash_per_usd_mil": "25000000"
+        "nhash_per_usd_mil": "25000000",
+        "conversion_fee_denom": "vspn"
       },
       "msg_fees": []
     },
