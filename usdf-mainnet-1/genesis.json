@@ -354,12 +354,12 @@
       "bindings": [
         {
           "name": "provenance",
-          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
+          "address": "pb1qelnjrzjyprl0x52fdgnr5gw92jel8ezzlpl39",
           "restricted": true
         },
         {
           "name": "pb",
-          "address": "pb1v2km7r7fsuvsqk48fx743727p3d4tq6q80pdq7",
+          "address": "pb1qelnjrzjyprl0x52fdgnr5gw92jel8ezzlpl39",
           "restricted": true
         }
       ]
@@ -374,11 +374,11 @@
     "params": null,
     "slashing": {
       "params": {
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "86400s",
+        "signed_blocks_window": "34560",
+        "min_signed_per_window": "0.050",
+        "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+        "slash_fraction_downtime": "0.000"
       },
       "signing_infos": [],
       "missed_blocks": []
