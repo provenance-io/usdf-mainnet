@@ -354,12 +354,12 @@
       "bindings": [
         {
           "name": "provenance",
-          "address": "pb1qelnjrzjyprl0x52fdgnr5gw92jel8ezzlpl39",
+          "address": "pb1x6wl93gd9mrqh6munuagfh2puxwv8a0wfpfnxf",
           "restricted": true
         },
         {
           "name": "pb",
-          "address": "pb1qelnjrzjyprl0x52fdgnr5gw92jel8ezzlpl39",
+          "address": "pb1x6wl93gd9mrqh6munuagfh2puxwv8a0wfpfnxf",
           "restricted": true
         }
       ]
