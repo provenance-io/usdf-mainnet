@@ -306,7 +306,7 @@
       "params": {
         "enable_governance": true,
         "max_total_supply": "18446744073709551615",
-        "unrestricted_denom_regex": "[a-zA-Z][a-zA-Z0-9/]{7,64}"
+        "unrestricted_denom_regex": "[a-zA-Z][a-zA-Z0-9\\-\\.]{7,83}"
       },
       "markers": []
     },
